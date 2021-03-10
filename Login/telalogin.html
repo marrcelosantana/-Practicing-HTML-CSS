@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/Estilos/stylelogin.css">
+</head>
+<body>
+    
+    <div class="container">
+        
+        <div class="box"> 
+            <div class="titulo"> <strong>LOGIN</strong> </div>
+
+            <div class="inputs">
+                <input type="text" id="login" placeholder="Digite seu usuário ou email">
+                <input type="password" id="senha" placeholder="Digite sua senha">
+            </div>
+
+            <label id="lembrar"><input type="checkbox">Lembrar</label>
+            <a href="/Senha/teladesenha.html" id="esquecer">Esqueci minha senha</a>
+
+
+            <a href="/Principal/telaprincipal.html" id="entrar">
+                <button onclick="entrar()">Entrar</button>
+            </a>
+
+            <a href="https://www.gmail.com/">
+                <button id="google">
+                    Entrar com o Google
+                    <img id="googleimagem" src="/Imagens/google.png" alt="googleimg">
+                </button>
+                
+            </a>
+        
+            <a href="https://www.facebook.com/">
+                <button id="facebook">
+                    Entrar com o Facebook
+                    <img id="facebookimagem" src="/Imagens/face.png" alt="facebookimg">
+                </button>
+                
+            </a>
+            
+        
+            <div class="conclusao">
+                Ainda não é registrado?
+                <a href="/Cadastro/telacadastro.html" target="_blank" title="Começar cadastro"> Cadastre-se!</a>
+            </div>
+            
+        </div>
+    
+  
+
+
+
+    </div>
+
+
+    <script src="/Login/login.js">
+
+    </script>
+
+
+</body>
+</html>

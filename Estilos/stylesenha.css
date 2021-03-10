@@ -1,0 +1,76 @@
+@import url(https://fonts.googleapis.com/css?family=Rajdhani:300,regular,500,600,700);
+
+*{
+	box-sizing: border-box;
+}
+
+html{
+    font-family: rajdhani;
+    font-size: 14px;
+}
+body{
+    margin: 0px;
+
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: darkgray;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-image: url('../Imagens/background.jpg');
+    background-size: cover;
+}
+
+
+.box{
+    padding: 30px;
+    background-image: url('/Imagens/white1.png');
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    border-top: 10px solid darkblue;
+    border-bottom: 10px solid rgb(247,71,90);
+    border-radius: 10px;
+}
+
+.titulo{
+    font-size: 70px;
+    margin-bottom: 10px;
+}
+
+input{
+    width: 250px;
+    height: 35px;
+    font-family: rajdhani;
+    margin-bottom: 10px;
+    border: 1.5px solid black;
+    background-color: rgb(202, 199, 199);
+    text-align: center;
+    border-radius: 5px;
+    outline: 0px;
+}
+
+button{
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    background-image: linear-gradient(to left, red, blue);
+    color: white;
+    font-weight: bold;
+    border: 0px;
+    outline: 0px;
+    border-radius: 30px;
+    font-family: rajdhani;
+    margin-top: 30px;
+
+
+}
+
+button:hover{
+    background-image: linear-gradient(to right, rgb(0, 217, 255), rgb(255, 0, 179));
+}

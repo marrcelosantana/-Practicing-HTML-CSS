@@ -1,0 +1,199 @@
+@import url(https://fonts.googleapis.com/css?family=Rajdhani:300,regular,500,600,700);
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+
+}
+
+html{
+    font-family: rajdhani;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: darkgray;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-image: url('../Imagens/background.jpg');
+    background-size: cover;
+}
+
+
+.box{
+    padding: 40px;
+    background-image: url('/Imagens/white1.png');
+    width: 400px;
+    height: 500px;
+    text-align: center;
+    border-top: 10px solid darkblue;
+    border-bottom: 10px solid rgb(247,71,90);
+    border-radius: 10px;
+}
+
+
+.titulo{
+    font-size: 90px;
+    margin-bottom: 10px;
+}
+
+
+
+input{
+    width: 300px;
+    height: 30px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: rgb(202, 199, 199);
+    outline: 0px;
+    
+}
+
+
+button{
+    width: 200px;
+    height: 40px;
+    font-size: 25px;
+    background-color: rgba(169, 169, 169, 0.568); 
+    cursor: pointer;
+
+}
+
+.conclusao{
+    margin-top: 15px;
+}
+
+.conclusao > a{
+    text-decoration: none;
+    color: #346add;
+    font-weight: bold;
+}
+
+.conclusao > a:hover{
+    color: #f7475a;
+    text-decoration: underline;
+}
+
+#entrar > button{
+    background-image: linear-gradient(to left, red, blue);
+    font-family: rajdhani;
+    color: white;
+    text-decoration: none; 
+    font-weight: bold;
+    margin-top: 20px;
+    border: 0px;
+    outline: 0px;
+    border-radius: 30px;
+}
+
+#entrar > button:hover{
+    background-image: linear-gradient(to right, rgb(0, 217, 255), rgb(255, 0, 179));
+}
+
+#login{
+    text-align: center;
+    border: solid 1.5px black;
+    font-family: rajdhani;
+    
+    
+}
+
+#senha{
+    text-align: center;
+    border: solid 1.5px black;
+    font-family: rajdhani;
+
+    
+}
+
+
+#lembrar{
+    font-family: rajdhani;
+    font-size: 15px;
+    margin-right: 85px;
+    cursor: pointer;
+}
+
+#lembrar:hover{
+    color: #f7475a;
+    text-decoration: underline;
+}
+
+#lembrar > input{
+   width: 12px;
+   height: 12px;
+   align-items: baseline;
+   cursor: pointer;
+}
+
+#esquecer {
+    font-family: rajdhani;
+    font-size: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+
+}
+
+#esquecer:hover{
+    text-decoration: underline;
+    color: #f7475a;
+}
+
+#google{
+    font-family: rajdhani;
+    border-radius: 20px;
+    background-color: rgb(247,138,56);
+    font-size: 15px;
+    margin-top: 15px;
+    font-weight: bold;
+    color: white;
+    border: 0px;
+    text-align: center;
+}
+
+#google:hover{
+    background-color: white;
+    color: rgb(247,138,56);
+}
+
+#googleimagem{
+    width: 15px;
+    height: 13px;
+    margin-left: 10px;
+    margin-top: 5px;
+    position: relative;
+    left: 5px;
+
+}
+
+#facebook{
+    font-family: rajdhani;
+    border-radius:20px;
+    background-color: rgb(24,119,242);
+    font-size: 15px;
+    margin-top: 15px;
+    font-weight: bold;
+    color: white;
+    border: 0px;
+}
+
+#facebook:hover{
+    background-color: white;
+    color: rgb(24,119,242);
+}
+
+#facebookimagem{
+    width: 15px;
+    height: 15px;
+    position: relative;
+    left: 7px;
+    top: 3px;
+}
